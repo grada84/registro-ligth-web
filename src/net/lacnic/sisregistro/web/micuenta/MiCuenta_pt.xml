@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding='iso-8859-1' ?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key='confirmacion'>Tem certeza que deseja votar em: </entry>
+	<entry key='muchosCandidatos'>Selecionado muitos candidatos. A máxima é:</entry>
+	<entry key='ningunCandidato'>Você deve selecionar pelo menos um candidato</entry>
+	<entry key='votante'>Os dados do eleitor</entry>
+	<entry key='maximo'>Maximo para escolher</entry>
+	<entry key='votar'>Votar</entry>
+
+</properties>

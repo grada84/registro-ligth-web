@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding='iso-8859-1' ?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key='titulo'>Sistema de votación</entry>
+	<entry key='introduccion1'>Este sistema ha sido desarrollado por el área técnica de LACNIC con el fin de
+		facilitar los procesos previos, concomitantes y posteriores a las distintas
+		elecciones gestionadas por LACNIC.</entry>
+	<entry key='introduccion2'>Además de las pruebas asociadas al propio desarrollo y a petición de los
+		integrantes de la comisión electoral este sistema ha sido probado por una
+		organización externa. El día 2 de julio de 2013 LACNIC recibió de la consultora
+		de sistemas Aqua. It S.R.L el siguiente informe de pruebas</entry>
+	<entry key='download'>descargar aqui</entry>
+	<entry key='controlCambio'>Control de cambios</entry>
+	<entry key="version1">15/06/2013 Versión 1.0</entry>
+	<entry key="version2">08/08/2013 Versión 1.1</entry>
+	<entry key='referencia'> Ver referencia</entry>
+	<entry key='referencia2'>Mas información para auditoria</entry>
+</properties>

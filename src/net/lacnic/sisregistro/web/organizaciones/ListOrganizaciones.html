@@ -1,0 +1,44 @@
+<wicket:extend>
+<h2>Organizaciones Miembro</h2>
+	<table wicket:id='contenedorListaOrganizaciones' cellpadding="0"
+		cellspacing="0">
+		<tr>
+			<th>Nombre</th>
+			<th>Fecha de Renovación</th>
+			<th>Fecha de Aniversario</th>
+			<th>OrgId</th>
+			<th>País</th>
+			<th></th>
+		</tr>
+		<tr wicket:id="dataViewOrganizaciones">
+			<td wicket:id="nombre">[fechaFin]</td>
+			<td wicket:id="dataRenovacao">[fechaFin]</td>
+			<td wicket:id="dataCadastro">[fechaFin]</td>
+			<td wicket:id="orgId">[fechaFin]</td>
+			<td wicket:id="pais">[fechaFin]</td>
+			<td><a wicket:id='linkDetalleOrganizacion'>Ver Detalle</a></td>
+
+		</tr>
+	</table>
+	<h2>Organizaciones NO Miembro</h2>
+	<table wicket:id='contenedorListaOrganizacionesNoMiembro' cellpadding="0"
+		cellspacing="0">
+		<tr>
+			<th>Nombre</th>
+			<th>Fecha de Renovación</th>
+			<th>Fecha de Aniversario</th>
+			<th>OrgId</th>
+			<th>País</th>
+			<th></th>
+		</tr>
+		<tr wicket:id="dataViewOrganizacionesNoMiembro">
+			<td wicket:id="nombre">[fechaFin]</td>
+			<td wicket:id="dataRenovacao">[fechaFin]</td>
+			<td wicket:id="dataCadastro">[fechaFin]</td>
+			<td wicket:id="orgId">[fechaFin]</td>
+			<td wicket:id="pais">[fechaFin]</td>
+			<td><a wicket:id='linkDetalleOrganizacion'>Ver Detalle</a></td>
+
+		</tr>
+	</table>
+</wicket:extend>

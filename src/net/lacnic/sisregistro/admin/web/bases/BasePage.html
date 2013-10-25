@@ -1,0 +1,54 @@
+<!doctype html>
+<html xmlns:wicket="http://wicket.apache.org/">
+<head>
+<meta charset="utf-8" />
+<title>Sistema de Registro</title>
+<link rel="stylesheet" href="css/jquery.qtip.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/estilos.css" type="text/css" media="screen" />
+<link href="img/favicon.ico" rel="Shortcut Icon" />
+
+<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+<script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.qtip.min.js"></script>
+
+<style type="text/css">
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+</style>
+</head>
+<body>
+	<div class="cuerpo">
+		<div class="banner">
+			<div class="logo">
+				<a href="http://localhost:8080/sisregistro/home"><!-- <img src="img/logo.png" border="0" title="LACNIC"> -->Sistema de Registro (Logo)</a>
+			</div>
+			<div class="banner-msg" align="center">
+				<h1>Sistema de Registro</h1>
+			</div>
+			<div class="banner-lang">
+				<a wicket:id='lang_es_link' href="#"><img src="img/lang_sp.png" border="0" title="Español"></a> <a wicket:id='lang_en_link' href="#"><img src="img/lang_en.png" border="0" title="English"></a> <a wicket:id='lang_pt_link' href="#"><img src="img/lang_pt.png" border="0" title="Portugu&ecirc;s"></a>
+			</div>
+		</div>
+
+		<div wicket:id="menu"></div>
+		<div class="contenido">
+
+			<wicket:child />
+		</div>
+		<div class="footer">
+			<img src="img/footer-logo.png" width="500" height="75" border="0" title="LACNIC">
+			<script type="text/javascript" src="https://seal.thawte.com/getthawteseal?host_name=elecciones.lacnic.net&amp;size=L&amp;lang=es"></script>
+		</div>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('.tooltip').qtip({
+					content : {
+						attr : 'alt'
+					}
+				})
+			});
+		</script>
+	</div>
+</body>
+</html>

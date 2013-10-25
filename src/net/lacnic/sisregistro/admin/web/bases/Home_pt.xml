@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding='iso-8859-1' ?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key='titulo'>Sistema Eleitoral</entry>
+	<entry key='introduccion1'>Este sistema tem sido desenvolvido pela área técnica do LACNIC a fim de facilitar os processos prévios, concomitantes e posteriores às diferentes eleições administradas pelo LACNIC.</entry>
+	<entry key='introduccion2'>Além dos testes relacionados com o próprio desenvolvimento, e a pedido dos membros da Comissão Eleitoral, esse sistema tem sido testado por uma organização externa. Em 2 de julho de 2013, o LACNIC recebeu da consultora de sistemas Aqua.It S.R.L. o seguinte relatório de testes </entry>
+	<entry key='download'>baixar aqui</entry>
+	<entry key='controlCambio'>Controle de versões</entry>
+	<entry key="version1">15/06/2013 versão 1.0</entry>
+	<entry key="version2">08/08/2013 versão 1.1</entry>
+	<entry key='referencia'>Referencia</entry>
+	<entry key='referencia2'>Mais informações para auditoria</entry>
+</properties>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="registro-web-light" default="deploy_registro_web_light">
+	<property name="build" location="WebContent" />
+	<property name="dist" location="dist" />
+	<property name="jboss_todos" location="/usr/local/jboss5.1/server/light/deploy" />
+
+	<target name="deploy_registro_web_light" description="deploy del web" depends="dist">
+		<copy todir="${jboss_todos}" file="${dist}/registro-light.war" />
+	</target>
+
+	<target name="dist" description="generate the distribution">
+		<mkdir dir="${dist}" />
+		<war destfile="${dist}/registro-light.war" basedir="${build}" webxml="WebContent/WEB-INF/web.xml">
+		</war>
+	</target>
+</project>

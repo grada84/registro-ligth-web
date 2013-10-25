@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding='iso-8859-1' ?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key='titulo'>Page not found</entry>
+	<entry key='descripcionSolicitudIngresada'>Page not found</entry>
+	<entry key='volver'>Back</entry>	
+</properties>

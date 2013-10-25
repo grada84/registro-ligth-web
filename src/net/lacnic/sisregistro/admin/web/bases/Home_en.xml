@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding='iso-8859-1' ?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key='titulo'>Election system</entry>
+	<entry key='introduccion1'>This system was developed by LACNIC's Technical Department to simplify all previous, concurrent and subsequent processes relating to the various elections managed by LACNIC.</entry>
+	<entry key='introduccion2'>In addition to the testing performed while developing the system, and at the request of LACNIC's Electoral Commission, the system has also been tested by a third party. On July 2nd, 2013, Aqua.It SRL, a systems consulting firm, delivered the following testing report to LACNIC. </entry>
+	<entry key='download'>Click here to download.</entry>
+	<entry key='controlCambio'>Version control</entry>
+	<entry key="version1">15/Jun/2013 Version 1.0</entry>
+	<entry key="version2">08/Aug/2013 Version 1.1</entry>
+	<entry key='referencia'>reference</entry>
+	<entry key='referencia2'>More information for audit</entry>
+
+</properties>
